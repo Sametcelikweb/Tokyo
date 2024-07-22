@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css\1024px_screan.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+    >
+    <script src="menu.js"></script>
+
+</head>
+<body>
+<!--navbar and header-->
+<!--Kendime sidebar class name'li bir alan belirledim görsel özellikleri buraya tanımladım bunun içerisine de elementleri hizalamak için container 
+class name'ye sahip başka bir div oluşturdum container ise header,navbar,search bar ve footer'ı istediğim esneklikte hizalayabilmem iiçin-->
+
+<div class="sidebar">
+
+  <div class="container">
+
+<!--header-->
+
+    <h3>TOKYO</h3>
+
+<!--header end-->
+
+<!--hamburger menu button-->
+
+<!--buttton elementinin hem clas namesini hem de id sini aynı yaptım js kodlarında çağırm-->    
+
+    <button class="menu" id = "menu" ><i id="icon" class="fa-solid fa-bars"></i></button>
+
+<!--hamburger menu button end-->
+
+<!--navigation bar-->
+
+    <div class="navbar" id="navbar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+<!--navigation bar end-->
+
+<!--search bar-->
+
+    <form action="/arama" method="GET">
+      <input type="search" name="q" placeholder="Search...">
+      <button class="fa-solid fa-magnifying-glass" type="submit"></button>
+    </form>
+
+<!--search bar end-->
+
+
+<!--footer-->
+
+    <div class="footer">
+      <p class="text1">© 2022 Tokyo     </p>
+      <p class="text1">Created by <a href="#" class="white">Marketify</a></p>
+    </div>
+
+<!--footer end-->
+
+  </div>
+</div>
+
+<!--navbar and header end-->
+
+<div class="countent" id="countent">
+  <div class="frame">
+
+      <!-- hero section -->
+       
+          <div class="blob" id="blob"></div>
+
+          <div class="text">
+              <h1>ADRIANO SMITHS</h1>
+              <p>I am a WordPress Developer at 
+                  heart and create features that 
+                  are best suited for the job 
+                  at hand.
+              </p>
+
+              <div class="social-menu">
+                  <ul>
+                    <li>
+                      <a href="#" target="_blank" class="facebook">
+                        <i class="fab fa-facebook-f"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" target="_blank" class="twitter">
+                        <i class="fab fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" target="_blank" class="instagram">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" target="_blank" class="dribbble">
+                        <i class="fab fa-dribbble"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" target="_blank" class="tiktok">
+                        <i class="fab fa-tiktok"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+          </div>
+  </div>
+</div>
+<script src="menu.js"></script>
+
+</body>
+</html>
