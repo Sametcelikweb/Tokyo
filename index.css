@@ -61,6 +61,9 @@
         width: 100%;
         margin-top: 50px;
         max-height: 1000px!important;
+        display: block!important;
+        transition: none!important;
+        height: fit-content!important;
     }
 
     form{
@@ -147,6 +150,7 @@
         width: 75vw;
         top: 0;
         overflow: hidden;
+        transition: 1s ease;
     }
 
     .frame{
@@ -330,10 +334,10 @@ p{
         box-sizing: border-box;
         z-index: 1000;
         display: block;
-        max-height: 0px;
+        height: 0px;
         overflow: hidden;
         overflow-x: hidden;
-        transition: max-height 1s ease;
+        transition: 1s ease;
     }
 
     form{
@@ -401,9 +405,10 @@ p{
         justify-content: center;
         align-items: center;
         height: 100vh;
-        margin: 0px;
+        margin: auto;
         width: 100vw;
         top: 10vh;
+        transition: 1s ease;
     }
 
     .frame{
@@ -413,7 +418,7 @@ p{
         height: max-content;
         justify-content: center;
         align-items: center;
-        margin: 0px;
+        margin: auto;
     }
 
     /* blob */
@@ -424,10 +429,10 @@ p{
     background-size: cover;
     -webkit-background-position: center;
     background-position: center center;
-    margin-left: 30px;
     animation: animate 5s ease-in-out infinite;
     transition: all 1s ease-in-out;
     position: relative;
+    margin: auto;
 }
 
 .blob::before {
@@ -468,6 +473,8 @@ p{
     padding-bottom: 2px;
     cursor: default;
     margin-right: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 h1{
@@ -475,6 +482,7 @@ h1{
     margin-bottom: 25px;
     font-family: Geneva,Tahoma,Verdana,sans-serif;
     font-size: 35px;
+    text-align: center;
 }
 
 p{
@@ -482,14 +490,13 @@ p{
     margin-bottom: 25px;
     font-family: Geneva,Tahoma,Verdana,sans-serif;
     font-size: small;
+    text-align: center;
 }
 
 .social-menu {
     position: relative;
-    margin: 30px;
-    margin-left: 0;
-    margin-top: 0;
-    margin-bottom: 2px;
+    width: max-content;
+    margin: auto;
   }
   
   .social-menu ul {
@@ -594,10 +601,10 @@ p{
         box-sizing: border-box;
         z-index: 1000;
         display: block;
-        max-height: 0px;
+        height: 0px;
         overflow: hidden;
         overflow-x: hidden;
-        transition: max-height 1s ease;
+        transition: 1s ease;
     }
 
     form{
@@ -666,9 +673,10 @@ p{
         justify-content: center;
         align-items: center;
         height: 100vh;
-        margin: 0px;
         width: 100vw;
         top: 10vh;
+        margin: auto;
+        transition: 1s ease;
     }
 
     .frame{
@@ -678,7 +686,7 @@ p{
         height: max-content;
         justify-content: center;
         align-items: center;
-        margin: 0px;
+        margin: auto;
     }
 
     /* blob */
@@ -689,7 +697,7 @@ p{
     background-size: cover;
     -webkit-background-position: center;
     background-position: center center;
-    margin-left: 30px;
+    margin:auto;
     animation: animate 5s ease-in-out infinite;
     transition: all 1s ease-in-out;
     position: relative;
@@ -733,6 +741,7 @@ p{
     padding-bottom: 2px;
     cursor: default;
     margin-right: 20px;
+    
 }
 
 h1{
@@ -740,6 +749,7 @@ h1{
     margin-bottom: 25px;
     font-family: Geneva,Tahoma,Verdana,sans-serif;
     font-size: 25px;
+    text-align: center;
 }
 
 p{
@@ -747,14 +757,13 @@ p{
     margin-bottom: 25px;
     font-family: Geneva,Tahoma,Verdana,sans-serif;
     font-size: 10px;
+    text-align: center;
 }
 
 .social-menu {
     position: relative;
-    margin: 30px;
-    margin-left: 0;
-    margin-top: 0;
-    margin-bottom: 2px;
+    width: max-content;
+    margin: auto;
   }
   
   .social-menu ul {
@@ -858,10 +867,10 @@ p{
         box-sizing: border-box;
         z-index: 1000;
         display: block;
-        max-height: 0px;
+        height: 0px;
         overflow: hidden;
         overflow-x: hidden;
-        transition: max-height 1s ease;
+        transition: 1s ease;
     }
 
     form{
@@ -927,12 +936,11 @@ p{
     .countent{
         position: relative;
         display: block;
-        justify-content: center;
-        align-items: center;
         height: 100vh;
-        margin: 0px;
         width: 100vw;
         top: 10vh;
+        margin: auto;
+        transition: 1s ease;
     }
 
     .frame{
@@ -940,9 +948,7 @@ p{
         display: block;
         width: 100vw;
         height: max-content;
-        justify-content: center;
-        align-items: center;
-        margin: 0px;
+        margin: auto;
     }
 
     /* blob */
@@ -950,13 +956,14 @@ p{
     background-image: url('youngMan.png');
     width: 210px;
     height: 210px;
+    margin-left: 45px;
     background-size: cover;
     -webkit-background-position: center;
     background-position: center center;
-    margin-left: 30px;
     animation: animate 5s ease-in-out infinite;
     transition: all 1s ease-in-out;
     position: relative;
+    margin: auto;
 }
 
 .blob::before {
@@ -1004,6 +1011,7 @@ h1{
     margin-bottom: 25px;
     font-family: Geneva,Tahoma,Verdana,sans-serif;
     font-size: 25px;
+    text-align: center;
 }
 
 p{
@@ -1011,14 +1019,13 @@ p{
     margin-bottom: 25px;
     font-family: Geneva,Tahoma,Verdana,sans-serif;
     font-size: 10px;
+    text-align: center;
 }
 
 .social-menu {
     position: relative;
-    margin: 30px;
-    margin-left: 0;
-    margin-top: 0;
-    margin-bottom: 2px;
+    width: max-content;
+    margin: auto;
   }
   
   .social-menu ul {
